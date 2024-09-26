@@ -8,7 +8,7 @@ const router = Router();
 router.get('/', getMeal);
 router.post('/saveMeals', saveMeals);
 router.put('/editMeal', editMeal);
-router.delete('/deleteMeal', deleteMeal);
+router.delete('/deleteMeal/:id', deleteMeal);
 
 
 
